@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 90%; */
+
+}
+
+.header-top {
+    background-color: #589167;
+    padding: 10px;
+    width: 100%;
+    z-index: 0;
+    color: white;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.header-top .left-icons {
+    float: right;
+    position: relative;
+    margin-left: 60%;
+    display: flex;
+    gap: 30px;
+}
+
+.header-down {
+    display: flex;
+    padding: 30px;
+    background-color: transparent;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    /* position: sticky; */
+}
+
+.header-down .p {
+    color: black;
+
+}
+
+.Counselor-paragraph {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Roboto;
+}
+
+.header-down .nav-bar {
+    display: flex;
+    float: right;
+    position: relative;
+    margin-left: 40%;
+    gap: 25px;
+    text-decoration: none;
+
+}
+
+.nav-bar,
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-bar,
+a:hover {
+    color: #589167;
+    cursor: pointer;
+}
+
+.nav-bar,
+a:active {
+    color: #589167;
+}
+
+.Hero {
+    height: 850px;
+    width: 100%;
+    background-image: url(img/bg_1.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Hero,
+.hero-text {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    /* font-weight: bold; */
+}
+
+.hero-text {
+    padding-top: 22%;
+    padding-left: 100px;
+
+}
+
+
+.Hero,
+.hero-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-style: italic;
+    padding-left: 100px;
+}
+
+.Hero,
+.btn {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.Hero,
+.fir-btn {
+    background-color: #589167;
+    color: white;
+    font-size: 15px;
+    padding: 16px 24px;
+    /* padding-top: 10px; */
+    border-radius: 3px;
+}
+
+.Hero,
+.sec-btn {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 16px 24px;
+    /* padding-top: 10px; */
+    border-radius: 3px;
+}
